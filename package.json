@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Demo site for https://www.npmjs.com/package/antwerp-core-react-branding",
   "scripts": {
-    "demo-hugo": "hugo server",
-    "demo-webpack": "webpack --display-error-details"
+    "start": "concurrently --kill-others \"hugo server\" \"webpack -w\"",
+    "build": "webpack && hugo"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "@types/react": "^16.0.34",
     "@types/react-dom": "^16.0.3",
     "autoprefixer": "^7.2.5",
+    "concurrently": "^3.5.1",
     "css-loader": "^0.28.9",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",

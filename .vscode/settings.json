@@ -12,7 +12,8 @@
         "**/*.css": {
             "when": "$(basename).scss"
         },
-        "**/*.map": true
+        "**/*.map": true,
+        "static": true
     },
     "search.exclude": {
         "**/node_modules": true,
