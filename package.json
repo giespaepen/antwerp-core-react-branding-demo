@@ -1,0 +1,49 @@
+{
+  "name": "antwerp-core-react-branding-demo",
+  "version": "1.0.0",
+  "description": "Demo site for https://www.npmjs.com/package/antwerp-core-react-branding",
+  "scripts": {
+    "demo-hugo": "hugo server",
+    "demo-webpack": "webpack --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giespaepen/antwerp-core-react-branding-demo.git"
+  },
+  "author": "Gie Spaepen <giespaepen@outlook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/giespaepen/antwerp-core-react-branding-demo/issues"
+  },
+  "homepage": "https://github.com/giespaepen/antwerp-core-react-branding-demo#readme",
+  "dependencies": {
+    "antwerp-core-react-branding": "^0.0.76",
+    "classnames": "^2.2.5",
+    "flexboxgrid": "https://github.com/kristoferjoseph/flexboxgrid.git",
+    "moment": "^2.18.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "autoprefixer": "^7.2.5",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "image-loader": "^0.0.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
+    "resolve-url-loader": "^2.2.1",
+    "sass-lint": "^1.12.1",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.5.3",
+    "tslint-microsoft-contrib": "^5.0.2",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}

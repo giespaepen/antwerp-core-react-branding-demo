@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        "coverage": true,
+        "deploy": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.css": {
+            "when": "$(basename).scss"
+        },
+        "**/*.map": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "client/assets/**/*.*": true
+    },
+    "editor.tabCompletion": true,
+    "files.autoSave": "onFocusChange",
+    "sasslint.configFile": ".sass-lint.yml",
+    "sasslint.enable": true,
+    "typescriptHero.resolver.organizeOnSave": true,
+    "typescriptHero.resolver.disableImportRemovalOnOrganize": true,
+    "typescriptHero.resolver.stringQuoteStyle": "\"",
+    "typescriptHero.resolver.importGroups": [
+        "Plains",
+        "/^react/",
+        {
+            "identifier": "/^react/",
+            "order": "asc"
+        },
+        "Modules",
+        "Workspace"
+    ]
+}
