@@ -1,10 +1,15 @@
-@import "./variables.scss";
+@import './variables.scss';
 
 body {
     background-color: $background-color;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    h1, h2, h3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
     .container {
         background-color: $white;
@@ -14,6 +19,13 @@ body {
 
         .aui-hero {
             margin-bottom: 0;
+        }
+
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1240px;
+            padding-top: $spacer;
         }
 
         article {

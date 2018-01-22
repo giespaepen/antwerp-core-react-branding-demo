@@ -31,6 +31,7 @@ var config = {
         aggregateTimeout: 300,
         poll: 1000
     },
+    stats: "errors-only",
     module: {
         rules: [
             {

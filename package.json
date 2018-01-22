@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Demo site for https://www.npmjs.com/package/antwerp-core-react-branding",
   "scripts": {
-    "start": "concurrently --kill-others \"hugo server\" \"webpack -w\"",
+    "start": "concurrently \"webpack -w\" \"hugo server --forceSyncStatic --watch \"",
     "build": "webpack && hugo"
   },
   "repository": {
